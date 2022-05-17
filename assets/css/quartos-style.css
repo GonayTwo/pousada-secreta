@@ -1,0 +1,138 @@
+
+/*ESTILOS GLOBAIS*/
+*{
+    margin: 0;
+    overflow-x: hidden;
+}
+body{
+    padding: 0;
+    font-family: 'Source Sans Pro';
+}
+.texto-azul{
+    color:#1e7fbb;
+}
+.texto-branco{
+    color: #ffffff;
+}
+.texto-negrito{
+    font-weight: bold;
+}
+/*TOPO*/
+.topo{    
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+}
+.menu-topo{
+    font-size: 22px;
+    width: 1024px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu-topo a{
+    text-decoration: none;
+    color: #776960;
+}
+.logo-topo{
+    font-size: 26px;
+}
+.itens-menu-topo{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+/* QUARTOS PAGE */
+.imagem-pagina-quartos{
+    width: 100vw;
+    height: 160px;
+    background-image: url(../Images/img-fundo.jpg);
+    background-size: cover;
+}
+
+/*APRESENTACAO QUARTO AREA */
+.apresentacao-quarto{
+    color:#776960;
+    margin: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.apresentacao-quarto h1{
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+.imagens-quarto{  
+    display: flex;
+    justify-content: center;
+}
+.imagem-quarto img{
+    width: 400px;
+    height: 250px;
+    padding-left: 10px;
+}
+
+/* INFORMAÇÕES AREA */
+.informacoes-quarto{
+    color: #776960;
+    margin: 60px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.informacoes-quarto h2{
+    
+    text-align: center;
+    padding-bottom: 25px;
+}
+.informacoes-quarto ul{  
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.informacoes-quarto ul li{
+    width: 25%;
+    text-align: left;
+    margin-top: 10px;
+}
+/*RODAPE AREA */
+.rodape{
+    height: 150px;
+    background-color: #4A997C;
+}
+.texto-rodape{
+    width: 180px;
+    padding: 20px 0;
+    text-align: start;
+}
+.itens-rodape{
+    border-bottom: 1px solid #ffffff;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.item-rodape{
+    width: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item-rodape p{
+    margin-left: 10px;
+}
+.item-rodape a{
+    text-decoration: none;
+}
+.rodape-direitos{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
